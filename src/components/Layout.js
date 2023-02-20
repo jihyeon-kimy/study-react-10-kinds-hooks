@@ -24,6 +24,13 @@ const Layout = () => {
             useTabs
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useTitle"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useTitle
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>
