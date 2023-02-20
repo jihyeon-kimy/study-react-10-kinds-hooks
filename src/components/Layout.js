@@ -17,6 +17,13 @@ const Layout = () => {
             useInput
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useTabs"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useTabs
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>

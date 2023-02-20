@@ -20,10 +20,10 @@ function CheckInput() {
   const name = useInput("Jihyeon", maxLen);
 
   return (
-    <div>
-      <h1>Hello</h1>
+    <>
+      <h1>useInput</h1>
       <input placeholder="Name" {...name} />
-    </div>
+    </>
   );
 }
 
