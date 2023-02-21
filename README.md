@@ -10,8 +10,8 @@
 - usePreventLeave
 - useBeforeLeave
 - useFadeIn
-- useFullscreen
 - useNetwork
+- useFullscreen
 - useNotificatioin
 - useScroll
 - useAxios
