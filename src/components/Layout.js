@@ -94,6 +94,13 @@ const Layout = () => {
             useNotification
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useAxios"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useAxios
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>

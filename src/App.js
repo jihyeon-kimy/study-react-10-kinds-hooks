@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import CheckAxios from "./components/CheckAxios";
 import CheckBeforeLeave from "./components/CheckBeforeLeave";
 import CheckClick from "./components/CheckClick";
 import CheckConfirm from "./components/CheckConfirm";
@@ -31,6 +32,7 @@ function App() {
           <Route path="useScroll" element={<CheckScroll />} />
           <Route path="useFullscreen" element={<CheckFullscreen />} />
           <Route path="useNotification" element={<CheckNotification />} />
+          <Route path="useAxios" element={<CheckAxios />} />
         </Route>
       </Routes>
     </>
