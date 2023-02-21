@@ -38,6 +38,13 @@ const Layout = () => {
             useClick
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useConfirm"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useConfirm
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>
