@@ -31,6 +31,13 @@ const Layout = () => {
             useTitle
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useClick"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useClick
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>
