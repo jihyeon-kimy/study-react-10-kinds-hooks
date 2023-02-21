@@ -10,7 +10,7 @@ const useFadeIn = (duration = 1, delay = 0) => {
   useEffect(() => {
     if (element.current) {
       const { current } = element;
-      current.style.transition = `opacity ${duration}s ease-in-out ${delay}`;
+      current.style.transition = `opacity ${duration}s ease-in-out ${delay}s`;
       current.style.opacity = 1;
     }
   }, []);
@@ -18,11 +18,11 @@ const useFadeIn = (duration = 1, delay = 0) => {
 };
 
 function CheckFadeIn() {
-  const fadeIn = useFadeIn(5);
+  const fadeIn = useFadeIn(2);
   return (
     <>
       <h1>useFadeIn</h1>
-      <b {...fadeIn}>Test FadeIn!</b>
+      <div {...fadeIn}>Test FadeIn!</div>
     </>
   );
 }

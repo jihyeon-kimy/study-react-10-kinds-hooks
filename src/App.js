@@ -5,6 +5,7 @@ import CheckClick from "./components/CheckClick";
 import CheckConfirm from "./components/CheckConfirm";
 import CheckFadeIn from "./components/CheckFadeIn";
 import CheckInput from "./components/CheckInput";
+import CheckNetwork from "./components/CheckNetwork";
 import CheckPreventLeave from "./components/CheckPreventLeave";
 import CheckTabs from "./components/CheckTabs";
 import CheckTitle from "./components/CheckTitle";
@@ -23,6 +24,7 @@ function App() {
           <Route path="usePreventLeave" element={<CheckPreventLeave />} />
           <Route path="useBeforeLeave" element={<CheckBeforeLeave />} />
           <Route path="useFadeIn" element={<CheckFadeIn />} />
+          <Route path="useNetwork" element={<CheckNetwork />} />
         </Route>
       </Routes>
     </>

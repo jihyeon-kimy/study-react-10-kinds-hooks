@@ -66,6 +66,13 @@ const Layout = () => {
             useFadeIn
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useNetwork"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useNetwork
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>
