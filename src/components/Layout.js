@@ -80,6 +80,13 @@ const Layout = () => {
             useScroll
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useFullscreen"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useFullscreen
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>
