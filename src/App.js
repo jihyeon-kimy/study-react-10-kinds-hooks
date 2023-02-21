@@ -3,6 +3,7 @@ import "./App.css";
 import CheckBeforeLeave from "./components/CheckBeforeLeave";
 import CheckClick from "./components/CheckClick";
 import CheckConfirm from "./components/CheckConfirm";
+import CheckFadeIn from "./components/CheckFadeIn";
 import CheckInput from "./components/CheckInput";
 import CheckPreventLeave from "./components/CheckPreventLeave";
 import CheckTabs from "./components/CheckTabs";
@@ -21,6 +22,7 @@ function App() {
           <Route path="useConfirm" element={<CheckConfirm />} />
           <Route path="usePreventLeave" element={<CheckPreventLeave />} />
           <Route path="useBeforeLeave" element={<CheckBeforeLeave />} />
+          <Route path="useFadeIn" element={<CheckFadeIn />} />
         </Route>
       </Routes>
     </>

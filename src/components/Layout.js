@@ -59,6 +59,13 @@ const Layout = () => {
             useBeforeLeave
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useFadeIn"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useFadeIn
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>
