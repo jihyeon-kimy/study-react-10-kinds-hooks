@@ -52,6 +52,13 @@ const Layout = () => {
             usePreventLeave
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useBeforeLeave"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useBeforeLeave
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>

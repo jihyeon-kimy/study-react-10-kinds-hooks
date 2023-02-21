@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import CheckBeforeLeave from "./components/CheckBeforeLeave";
 import CheckClick from "./components/CheckClick";
 import CheckConfirm from "./components/CheckConfirm";
 import CheckInput from "./components/CheckInput";
@@ -19,6 +20,7 @@ function App() {
           <Route path="useClick" element={<CheckClick />} />
           <Route path="useConfirm" element={<CheckConfirm />} />
           <Route path="usePreventLeave" element={<CheckPreventLeave />} />
+          <Route path="useBeforeLeave" element={<CheckBeforeLeave />} />
         </Route>
       </Routes>
     </>
