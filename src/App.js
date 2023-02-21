@@ -7,6 +7,7 @@ import CheckFadeIn from "./components/CheckFadeIn";
 import CheckFullscreen from "./components/CheckFullscreen";
 import CheckInput from "./components/CheckInput";
 import CheckNetwork from "./components/CheckNetwork";
+import CheckNotification from "./components/CheckNotification";
 import CheckPreventLeave from "./components/CheckPreventLeave";
 import CheckScroll from "./components/CheckScroll";
 import CheckTabs from "./components/CheckTabs";
@@ -29,6 +30,7 @@ function App() {
           <Route path="useNetwork" element={<CheckNetwork />} />
           <Route path="useScroll" element={<CheckScroll />} />
           <Route path="useFullscreen" element={<CheckFullscreen />} />
+          <Route path="useNotification" element={<CheckNotification />} />
         </Route>
       </Routes>
     </>

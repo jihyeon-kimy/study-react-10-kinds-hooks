@@ -87,6 +87,13 @@ const Layout = () => {
             useFullscreen
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useNotification"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useNotification
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>
