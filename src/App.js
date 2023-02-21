@@ -7,6 +7,7 @@ import CheckFadeIn from "./components/CheckFadeIn";
 import CheckInput from "./components/CheckInput";
 import CheckNetwork from "./components/CheckNetwork";
 import CheckPreventLeave from "./components/CheckPreventLeave";
+import CheckScroll from "./components/CheckScroll";
 import CheckTabs from "./components/CheckTabs";
 import CheckTitle from "./components/CheckTitle";
 import Layout from "./components/Layout";
@@ -25,6 +26,7 @@ function App() {
           <Route path="useBeforeLeave" element={<CheckBeforeLeave />} />
           <Route path="useFadeIn" element={<CheckFadeIn />} />
           <Route path="useNetwork" element={<CheckNetwork />} />
+          <Route path="useScroll" element={<CheckScroll />} />
         </Route>
       </Routes>
     </>

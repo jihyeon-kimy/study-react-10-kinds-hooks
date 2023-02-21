@@ -73,6 +73,13 @@ const Layout = () => {
             useNetwork
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            to="/useScroll"
+            style={({ isActive }) => (isActive ? activeStyle : undefined)}>
+            useScroll
+          </NavLink>
+        </li>
       </ul>
       <Outlet />
     </>
